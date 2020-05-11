@@ -1,5 +1,121 @@
+/* Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* standard classes */
+.links-style {
+  text-decoration: none;
+}
+
+/* navigation bar */
+.first-container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  background-image: url(/assets/main-image.jpg);
+  background-repeat: no-repeat;
+}
+
+.global-header {
+  background: 
+  -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))),
+  
+  -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))), 
+  
+  -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
+  display: flex;
+  flex-flow: row nowrap;
+  width: 980px;
+  height: 36px;
+  border-radius: 6px;
+  box-shadow: rgb(0, 0, 0, .3) 0 1px 2px;
+  margin-top: 40px;
+}
+
+.nav-bar {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+}
+
+.nav-bar li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: .5px solid rgb(116, 110, 110);
+  width: 100%;
+  height: 100%;
+}
+
+.nav-bar a {
+  color: white;
+}
+
+.nav-item1 img {
+  width: 20px;
+}
+
+.nav-search {
+  padding: 8px 13px;
+}
+
+.nav-search label {
+  display: none;
+}
+
+.search-bar {
+  width: 100%;
+  height: 19px;
+  padding: 2px 18px 1px 22px;
+  border: 0 none;
+  border-radius: 12px;
+  background: url(/assets/globalsearch_field.png);
+  color: #fff;
+}
+
+/* content */
+.main {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 1440px;
+  height: 621px;
+  margin: 0 auto;
+}
+
+.main-content {
+  width: 800px;
+}
+
+.main-content a {
+  color: white;
+}
+
+.title {
+  font-size: 55px;
+  padding-bottom: 20px;
+}
+
+.sub-title {
+  font-size: 28px;
+  padding-bottom: 30px;
+  line-height: 36px;
+}
+
+.bottom-title {
+  font-size: 24px;
 }
