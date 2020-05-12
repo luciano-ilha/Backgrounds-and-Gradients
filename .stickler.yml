@@ -4,5 +4,4 @@ linters:
     config: 'stylelint.config.js'
 
 files:
-  ignore:
-  - 'styles/reset.css'
+  ignore: 'styles/reset.css'
