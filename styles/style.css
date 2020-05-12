@@ -39,7 +39,7 @@ body {
   flex-flow: column nowrap;
   align-items: center;
   max-width: 100%;
-  background-image: url(/assets/main-image2.jpg);
+  background-image: url('https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg');
   background-size: 100%;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -113,8 +113,12 @@ body {
   padding: 2px 18px 1px 22px;
   border: 0 none;
   border-radius: 12px;
-  background: url(/assets/globalsearch_field.png);
+  background: -webkit-linear-gradient(left, rgba(87,87,87,1) 0%, rgba(145,145,145,1) 25%, rgba(168,168,168,1) 52%, rgba(138,135,135,1) 76%, rgba(84,84,84,1) 100%);
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAAzklEQVQYlWNgAIP%2F9v%2FrwVCfARn85%2F%2B%2F%2Fz8CzEeS%2BnMQJPL0%2Ba37796DJfsZ4EYBwar9DBkMCQwFR86DJeXBUo%2F6QToYHCAKtaO%2Bf%2F%2F%2F%2F3kmmHNm%2Fv%2F%2FD27CTee4c%2Ff%2F%2F2vT4VKfXiM5CQg2t4M5lckQd%2F3nB0n8vQji5HhCFEpArP73AeGF35dACkEgYPtxmODXnxueg2igbqikh3l%2F1%2FpV%2B7vWyzUwxHatB%2BvcBLNfgMEA6AEDBg4g26Br%2FffvqeUMWIEBULcEdikGkG4AzGOfgUQC7TUAAAAASUVORK5CYII%3D);
+  background-repeat: no-repeat;
+  background-position: 5px;
   color: #fff;
+  box-shadow: 0px -1px 1px 1px rgb(77, 77, 77);
 }
 
 /* First Container */
