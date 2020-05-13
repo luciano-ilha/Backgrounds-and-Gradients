@@ -102,7 +102,8 @@ body {
 }
 
 .nav-bar a {
-  font-size: 13px;
+  font-size: 14px;
+  font-weight: 600;
   color: white;
 }
 
@@ -170,13 +171,12 @@ body {
 /* Second Container - ASIDE */
 
 .second-container {
-  width: 1436px;
+  width: 100%;
   margin-top: 2px;
 }
 
 .promos {
   display: grid;
-  max-width: 1436px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
   grid-gap: 2px;
@@ -202,24 +202,26 @@ body {
   grid-template-columns: 48% 1fr;
   grid-template-rows: 2fr;
   margin: 0 auto;
-  width: 980px;
+  width: 1020px;
+}
+
+.right,
+.left {
+  font-size: 12px;
+  margin-top: 30px;
 }
 
 .left {
-  font-size: 11px;
   text-align: left;
-  margin-top: 30px;
 }
 
 .right {
   display: flex;
-  font-size: 11px;
   justify-content: flex-end;
-  margin-top: 30px;
 }
 
 .right a {
-  padding-left: 11px;
+  padding-left: 9px;
 }
 
 .right img {
@@ -229,5 +231,5 @@ body {
 .bottom-left {
   margin-top: 15px;
   text-align: left;
-  font-size: 11px;
+  font-size: 12px;
 }
