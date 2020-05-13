@@ -1,0 +1,235 @@
+/* Reset */
+html { 
+  box-sizing: border-box;
+}
+
+*::before,
+*,
+*::after {
+  box-sizing: inherit;
+}
+
+/* General */
+.links-style {
+  text-decoration: none;
+}
+
+.blue {
+  color: #08c;
+}
+
+.change-button:hover {
+  cursor: pointer;
+  background-color: rgb(0, 0, 0, 0.3);
+}
+
+.underline-text:hover {
+  text-decoration: underline;
+}
+
+/* Body */
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.container {
+  max-width: 1436px;
+  margin: 0 auto;
+}
+
+/* Navigation Bar */
+.first-container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  background-image: url('https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: bottom;
+}
+
+.global-header {
+  background:
+    -webkit-gradient(
+      linear,
+      0 0,
+      0 100%,
+      from(rgba(0, 0, 0, 0.2)),
+      color-stop(0.05, rgba(0, 0, 0, 0)),
+      color-stop(0.97, rgba(0, 0, 0, 0)),
+      to(rgba(0, 0, 0, 0.45))
+    ),
+    -webkit-gradient(
+      linear,
+      0 0,
+      100% 0,
+      from(rgba(0, 0, 0, 0.2)),
+      color-stop(0.002, rgba(0, 0, 0, 0)),
+      color-stop(0.998, rgba(0, 0, 0, 0)),
+      to(rgba(0, 0, 0, 0.2))
+    ),
+    -webkit-gradient(
+      linear,
+      0 100%,
+      0 0,
+      from(#666),
+      color-stop(0.5, #5e5e5e),
+      color-stop(0.51, #707070),
+      to(#808080)
+    );
+  display: flex;
+  flex-flow: row nowrap;
+  width: 980px;
+  height: 36px;
+  border-radius: 6px;
+  box-shadow: rgb(0, 0, 0, 0.3) 0 1px 2px;
+  margin-top: 40px;
+  position: relative;
+  top: 46px;
+}
+
+.nav-bar {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+}
+
+.nav-bar li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.5px solid rgb(116, 110, 110);
+  width: 100%;
+}
+
+.nav-bar a {
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+}
+
+.nav-item1 img {
+  width: 20px;
+}
+
+.nav-search {
+  padding: 8px 13px;
+}
+
+.nav-search label {
+  display: none;
+}
+
+.search-bar {
+  width: 100%;
+  height: 19px;
+  padding: 2px 18px 1px 22px;
+  border: 0 none;
+  border-radius: 12px;
+  background: -webkit-linear-gradient(left, rgba(87, 87, 87, 1) 0%, rgba(145, 145, 145, 1) 25%, rgba(168, 168, 168, 1) 52%, rgba(138, 135, 135, 1) 76%, rgba(84, 84, 84, 1) 100%);
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAAzklEQVQYlWNgAIP%2F9v%2FrwVCfARn85%2F%2B%2F%2Fz8CzEeS%2BnMQJPL0%2Ba37796DJfsZ4EYBwar9DBkMCQwFR86DJeXBUo%2F6QToYHCAKtaO%2Bf%2F%2F%2F%2F3kmmHNm%2Fv%2F%2FD27CTee4c%2Ff%2F%2F2vT4VKfXiM5CQg2t4M5lckQd%2F3nB0n8vQji5HhCFEpArP73AeGF35dACkEgYPtxmODXnxueg2igbqikh3l%2F1%2FpV%2B7vWyzUwxHatB%2BvcBLNfgMEA6AEDBg4g26Br%2FffvqeUMWIEBULcEdikGkG4AzGOfgUQC7TUAAAAASUVORK5CYII%3D);
+  background-repeat: no-repeat;
+  background-position: 5px;
+  color: #fff;
+  box-shadow: 0 -1px 1px 1px rgb(77, 77, 77);
+}
+
+/* First Container */
+
+.main {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 980px;
+  height: 500px;
+}
+
+.main-content {
+  width: 980px;
+}
+
+.main-content a {
+  color: white;
+}
+
+.title {
+  font-size: 55px;
+  padding-bottom: 20px;
+}
+
+.sub-title {
+  font-size: 28px;
+  padding-bottom: 30px;
+  line-height: 36px;
+}
+
+.bottom-title {
+  font-size: 24px;
+}
+
+/* Second Container - ASIDE */
+
+.second-container {
+  margin-top: 2px;
+}
+
+.promos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 2px;
+}
+
+.promos img {
+  width: 100%;
+}
+
+/* footer */
+
+.footer {
+  min-width: 980px;
+  height: 100px;
+  color: #6c6c6c;
+  text-align: center;
+  background-color: white;
+}
+
+.wraper {
+  display: grid;
+  grid-template-columns: 48% 1fr;
+  grid-template-rows: 2fr;
+  margin: 0 auto;
+  width: 1020px;
+}
+
+.right,
+.left {
+  font-size: 12px;
+  margin-top: 30px;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.right a {
+  padding-left: 9px;
+}
+
+.right img {
+  width: 16px;
+}
+
+.bottom-left {
+  margin-top: 15px;
+  text-align: left;
+  font-size: 12px;
+}
