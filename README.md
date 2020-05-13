@@ -9,7 +9,7 @@ This project contains a clone of Apple website, with navigation bar styled with 
  - CSS3 
  
 # Live Demo #
-[Live Demo](https://rawcdn.githack.com/luciano-ilha/Backgrounds-and-Gradients/698dbbb34c0b639adb46d8f785bec9f02adffd4a/index.html)
+[Live Demo](https://rawcdn.githack.com/luciano-ilha/Backgrounds-and-Gradients/194c2929860809ef10fc56393976d198ea0fc294/index.html)
  
 # Prerequisites #
 All Modern web browsers like:
